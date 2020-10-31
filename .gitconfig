@@ -1,3 +1,7 @@
 [user]
 	email = harrisonhayes97@yahoo.com
 	name = Harrison Hayes
+[credential]
+	helper = store
+[push]
+	default = simple
