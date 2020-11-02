@@ -1,4 +1,4 @@
-('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'felikz/ctrlp-py-matcher'
     Plug 'scrooloose/nerdtree'
