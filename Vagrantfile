@@ -71,8 +71,8 @@ Vagrant.configure("2") do |config|
       apt-get install -y apache2
 
       apt-get install -y ranger
-      apt-get install vim
-      apt-get upgrade vim
+      apt-get install -y vim
+      apt-get upgrade -y vim
 
       apt-get install -y git
 
