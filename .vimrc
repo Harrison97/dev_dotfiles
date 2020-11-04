@@ -51,6 +51,7 @@ au FileType python set expandtab
 
 "Open NERDtree on ctl+n DELETE LATER
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeGitStatusPorcelainVersion=1
 "autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
