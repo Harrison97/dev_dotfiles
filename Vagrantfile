@@ -74,6 +74,7 @@ Vagrant.configure("2") do |config|
       sudo add-apt-repository ppa:jonathonf/vim
       sudo apt update
       sudo apt install vim
+      sudo apt upgrade vim
 
       apt-get install -y git
 
