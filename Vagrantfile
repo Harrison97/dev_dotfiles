@@ -71,6 +71,7 @@ Vagrant.configure("2") do |config|
       apt-get update
       apt-get install -y apache2
       apt-get install -y python3.8
+      apt-get install -y python3.8-distutils
       update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
       update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
 
