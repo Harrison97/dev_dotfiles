@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
 
       apt-get install -y zsh
       chsh -s $(which zsh) vagrant
-      su -c "source ~/dev_dotfiles/user-config.sh" vagrant
+      su -c "source /vagrant/user-config.sh" vagrant
 
     SHELL
 end
