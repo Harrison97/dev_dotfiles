@@ -70,7 +70,10 @@ Vagrant.configure("2") do |config|
       apt-get install -y apache2
 
       apt-get install -y ranger
-      apt-get upgrade -y vim
+
+      sudo add-apt-repository ppa:jonathonf/vim
+      sudo apt update
+      sudo apt install vim
 
       apt-get install -y git
 
