@@ -67,16 +67,16 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
     config.vm.provision "shell", inline: <<-SHELL
       add-apt-repository ppa:jonathonf/vim
-      apt update
-      apt install -y apache2
+      apt-get update
+      apt-get install -y apache2
 
-      apt install -y ranger
-      apt install vim
-      apt upgrade vim
+      apt-get install -y ranger
+      apt-get install vim
+      apt-get upgrade vim
 
-      apt install -y git
+      apt-get install -y git
 
-      apt install -y zsh
+      apt-get install -y zsh
       chsh -s $(which zsh) vagrant
       su -c "source /vagrant/user-config.sh" vagrant
 
