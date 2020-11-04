@@ -79,6 +79,7 @@ Vagrant.configure("2") do |config|
 
       apt-get install -y zsh
       chsh -s $(which zsh) vagrant
+      sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
       su -c "git clone https://github.com/Harrison97/dev_dotfiles.git ~/dev_dotfiles" vagrant
       su -c "source /home/vagrant/dev_dotfiles/user-config.sh" vagrant
 
