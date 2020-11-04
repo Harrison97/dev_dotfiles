@@ -66,19 +66,17 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
     config.vm.provision "shell", inline: <<-SHELL
-      apt-get update
-      apt-get install -y apache2
+      add-apt-repository ppa:jonathonf/vim
+      apt update
+      apt install -y apache2
 
-      apt-get install -y ranger
+      apt install -y ranger
+      apt install vim
+      apt upgrade vim
 
-      sudo add-apt-repository ppa:jonathonf/vim
-      sudo apt update
-      sudo apt install vim
-      sudo apt upgrade vim
+      apt install -y git
 
-      apt-get install -y git
-
-      apt-get install -y zsh
+      apt install -y zsh
       chsh -s $(which zsh) vagrant
       su -c "source /vagrant/user-config.sh" vagrant
 
