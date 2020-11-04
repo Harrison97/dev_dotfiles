@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'felikz/ctrlp-py-matcher'
     Plug 'scrooloose/nerdtree'
-"    Plug 'xuyuanp/nerdtree-git-plugin' "git status' for nerdtree
+    Plug 'xuyuanp/nerdtree-git-plugin' "git status' for nerdtree
     Plug 'itchyny/vim-cursorword' "underline the word in cursor
     Plug 'danro/rename.vim'
     Plug 'anyakichi/vim-surround' "cs'}
@@ -28,7 +28,7 @@ call plug#begin('~/.vim/plugged')
 ""    Plug 'aradunovic/perun.vim' "Neovim (Vim GUI only) colorscheme based on the default desert.vim
 ""    Plug 'christoomey/vim-tmux-navigator' "Seamless navigation between tmux panes and vim splits
 ""    Plug 'sjl/badwolf' " Color scheme...
-"    Plug 'sheerun/vim-polyglot' " Collection of Language packs for vim
+    Plug 'sheerun/vim-polyglot' " Collection of Language packs for vim
     Plug 'tyru/open-browser.vim' " Open Browser for URLs
 call plug#end()
 
