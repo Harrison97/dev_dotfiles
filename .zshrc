@@ -1,3 +1,4 @@
+PS1='%n@%m:%~ $ '
 export EDITOR=vim
 export VISUAL="$EDITOR"
 
