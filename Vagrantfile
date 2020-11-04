@@ -67,8 +67,10 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
     config.vm.provision "shell", inline: <<-SHELL
       add-apt-repository ppa:jonathonf/vim
+      add-apt-repository ppa:deadsnakes/ppa
       apt-get update
       apt-get install -y apache2
+      apt-get install -y python3.8
 
       apt-get install -y ranger
       apt-get install -y vim

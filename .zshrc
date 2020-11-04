@@ -101,6 +101,6 @@ alias gs="git status"
 alias gd="git diff"
 alias gl="git log"
 alias r="ranger"
-alias python='python3'
+alias python='python3.8'
 export EDITOR='vim'
 export VISUAL='vim'
