@@ -1,7 +1,11 @@
 [user]
 	email = harrisonhayes97@yahoo.com
-	name = Harrison Hayes
+	name = Harrison
 [credential]
 	helper = store
+[core]
+	editor = vim
 [push]
-	default = simple
+  default = simple
+[init]
+	defaultBranch = master
